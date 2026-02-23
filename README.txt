@@ -1,4 +1,6 @@
-Name: Keerthi Raju M
+Name               : Keerthi Raju M
+Email              : keerthiraju162@gmail.com
+University Number  : 1JB22AI026
 
 Questions Attempted:
 All 20 questions attempted.
