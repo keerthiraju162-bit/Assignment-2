@@ -1,42 +1,70 @@
-Name               : Keerthi Raju M
-Email              : keerthiraju162@gmail.com
-University Number  : 1JB22AI026
+README.txt — CampusPe Python Basics Assignment
+================================================
 
-Questions Attempted:
-All 20 questions attempted.
-Q1  - Personal Bio Card
-Q2  - Simple Calculator
-Q3  - String Manipulator
-Q4  - Age Calculator
-Q5  - Bill Splitter
-Q6  - Grade Calculator
-Q7  - Temperature Converter
-Q8  - Leap Year Checker
-Q9  - Ticket Pricing System
-Q10 - Simple ATM Simulator
-Q11 - Number Pattern Printer
-Q12 - Multiplication Table Generator
-Q13 - Sum and Average Calculator
-Q14 - Factorial Calculator
-Q15 - Prime Number Checker
-Q16 - Number Guessing Game
-Q17 - Palindrome Checker
-Q18 - Calculator Functions
-Q19 - Text Analysis Functions
-Q20 - Number System Functions
+Student Name    : Sachin M
+Date Submitted  : 23 February 2026
+Assignment      : Python Basics Assignment (Modules 1–6)
+Phone           : 8660652484
+Email           : gowdsachin2004@gmail.com
 
-Special Instructions:
-- Run each file individually using: python q1_bio_card.py, python q2_calculator.py, etc.
-- Python 3.6 or newer is required.
-- All programs handle invalid inputs using try-except.
-- No third-party libraries needed (only datetime, math, random from standard library).
 
-Challenges Faced:
-- Q4: Calculating the exact age required careful handling of whether the
-  birthday had already occurred in the current year.
-- Q16: Ensuring the loop correctly counted attempts without penalizing
-  the user for invalid (non-integer) guesses.
-- Q19/Q20: Structuring functions so they could be called individually
-  from a menu while still being reusable independently.
-- Q10: Enforcing the minimum balance rule during withdrawal without
-  letting the balance drop below Rs.500 accidentally.
+================================================
+QUESTIONS ATTEMPTED
+================================================
+
+All 20 questions attempted. Bonus sections also completed:
+
+  Q1  - Personal Bio Card            [2 pts]
+  Q2  - Simple Calculator            [2 pts]
+  Q3  - String Manipulator           [4 pts]
+  Q4  - Age Calculator + Bonus       [4+2 pts]
+  Q5  - Bill Splitter                [4 pts]
+  Q6  - Grade Calculator             [4 pts]
+  Q7  - Temperature Converter        [4 pts]
+  Q8  - Leap Year Checker            [4 pts]
+  Q9  - Ticket Pricing System        [4 pts]
+  Q10 - ATM Simulator + History Bonus[7 pts]
+  Q11 - Pattern Printer + 3 Patterns [4 pts]
+  Q12 - Multiplication Table + Grid  [4 pts]
+  Q13 - Sum & Average + Median/Mode  [4 pts]
+  Q14 - Factorial Calculator         [4 pts]
+  Q15 - Prime Number Checker         [7 pts]
+  Q16 - Guessing Game + Difficulty   [7 pts]
+  Q17 - Palindrome Checker           [4 pts]
+  Q18 - Calculator Functions + extras[7 pts]
+  Q19 - Text Analysis Functions      [9 pts]
+  Q20 - Number System Functions      [9 pts]
+
+================================================
+SPECIAL INSTRUCTIONS
+================================================
+
+  - Q4 uses datetime.date for precise age calculation (Bonus).
+  - Q10 includes a transaction history view (Bonus).
+  - Q11 includes 3 additional creative patterns (Bonus).
+  - Q12 includes the full 10×10 multiplication grid (Bonus).
+  - Q13 includes median and mode calculation (Bonus).
+  - Q16 includes difficulty levels and best-score tracking (Bonus).
+  - Q18 includes square root and percentage functions (Bonus).
+  - All programs include try-except for invalid input handling.
+  - All code is commented with logic explanations.
+  - Descriptive variable names are used throughout.
+
+================================================
+CHALLENGES FACED
+================================================
+
+  1. Q4 (Age Calculator): Determining whether the birthday had already
+     passed in the current year required careful date comparison logic.
+
+  2. Q10 (ATM): Enforcing the minimum balance of ₹500 during withdrawal
+     required computing the maximum available withdrawal first.
+
+  3. Q15 (Prime Checker): Optimising the divisor check to √n (instead of n)
+     to avoid slow performance on large numbers.
+
+  4. Q16 (Guessing Game): Managing the attempt counter correctly when
+     the user enters non-numeric input (not counting invalid entries as attempts).
+
+  5. Q20 (Number Functions): The GCD Euclidean algorithm needed careful
+     handling of 0 and negative inputs to avoid infinite loops.
