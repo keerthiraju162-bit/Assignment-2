@@ -1,45 +1,40 @@
-CampusPe | Python Basics Assignment
-=====================================
+Name: Keerthi Raju M
 
-Name    : Keerthi Raju M
-Email   : keerthiraju162@gmail.com
-Phone   : +91 8217828380
-College : SJB Institute of Technology
-Course  : B.E. in AI and ML (CGPA: 8.4)
+Questions Attempted:
+All 20 questions attempted.
+Q1  - Personal Bio Card
+Q2  - Simple Calculator
+Q3  - String Manipulator
+Q4  - Age Calculator
+Q5  - Bill Splitter
+Q6  - Grade Calculator
+Q7  - Temperature Converter
+Q8  - Leap Year Checker
+Q9  - Ticket Pricing System
+Q10 - Simple ATM Simulator
+Q11 - Number Pattern Printer
+Q12 - Multiplication Table Generator
+Q13 - Sum and Average Calculator
+Q14 - Factorial Calculator
+Q15 - Prime Number Checker
+Q16 - Number Guessing Game
+Q17 - Palindrome Checker
+Q18 - Calculator Functions
+Q19 - Text Analysis Functions
+Q20 - Number System Functions
 
-Questions Attempted: All 20 / 20
+Special Instructions:
+- Run each file individually using: python q1_bio_card.py, python q2_calculator.py, etc.
+- Python 3.6 or newer is required.
+- All programs handle invalid inputs using try-except.
+- No third-party libraries needed (only datetime, math, random from standard library).
 
-Files:
-  q1_bio_card.py
-  q2_calculator.py
-  q3_string_manipulator.py
-  q4_age_calculator.py
-  q5_bill_splitter.py
-  q6_grade_calculator.py
-  q7_temperature_converter.py
-  q8_leap_year.py
-  q9_ticket_pricing.py
-  q10_atm_simulator.py
-  q11_pattern_printer.py
-  q12_multiplication_table.py
-  q13_sum_average.py
-  q14_factorial.py
-  q15_prime_checker.py
-  q16_guessing_game.py
-  q17_palindrome.py
-  q18_calculator_functions.py
-  q19_text_analysis.py
-  q20_number_functions.py
-
-How to run:
-  python q1_bio_card.py
-  python q2_calculator.py
-  ... and so on
-
-Requires: Python 3.6+
-
-Declaration:
-I hereby declare that all code is written by me and is true
-to the best of my knowledge.
-
-                                       Keerthi Raju M
+Challenges Faced:
+- Q4: Calculating the exact age required careful handling of whether the
+  birthday had already occurred in the current year.
+- Q16: Ensuring the loop correctly counted attempts without penalizing
+  the user for invalid (non-integer) guesses.
+- Q19/Q20: Structuring functions so they could be called individually
+  from a menu while still being reusable independently.
+- Q10: Enforcing the minimum balance rule during withdrawal without
+  letting the balance drop below Rs.500 accidentally.
